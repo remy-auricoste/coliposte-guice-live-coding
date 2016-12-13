@@ -3,6 +3,7 @@
 # ~~~~
 
 GET      /                                                fr.drysoft.controller.IndexController.index
+POST     /events                                          fr.drysoft.controller.EventController.add()
 
 
 # Map static resources from the /public folder to the /assets URL path

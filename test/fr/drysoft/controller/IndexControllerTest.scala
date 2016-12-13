@@ -5,7 +5,7 @@ import play.api.test.{ FakeRequest, PlaySpecification }
 
 import scala.concurrent.Future
 
-class ApplicationTest extends PlaySpecification {
+class IndexControllerTest extends PlaySpecification {
   "index route" should {
     "return OK status" in {
       val controller = IndexController()
