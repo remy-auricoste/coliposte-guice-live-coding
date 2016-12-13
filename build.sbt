@@ -14,7 +14,7 @@ resolvers ++= Seq(
   "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/"
 )
 
-//val SseGuice           = "com.tzavellas"             %   "sse-guice"             %     "0.7.1"
+val SseGuice           = "com.tzavellas"             %   "sse-guice"             %     "0.7.1"
 val MockitoCore        = "org.mockito"               %   "mockito-core"          %     "1.10.19"         %  "test"
 
 libraryDependencies ++= Seq(
@@ -22,6 +22,7 @@ libraryDependencies ++= Seq(
   , json
   , MockitoCore
   , specs2
+  , SseGuice
 )
 
 play.sbt.PlayImport.PlayKeys.playDefaultPort := 9000
